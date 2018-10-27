@@ -36,6 +36,29 @@ A number having both of these properties, being a perfect square and equal to th
 
 * I would recommend using `long` instead of `int` if you want to test big numbers (max value of `int` is 2,147,483,647 and max value of `long` is 9,223,372,036,854,775,807).
 
+```
+public static void printMagics(int n)
+{
+    int curSqrt = 1;
+    int curSum = 0;
+    int curAdd = 0;
+        
+    // for loop n times
+            
+        int square = curSqrt * curSqrt;
+            
+        // while square != sum
+            // increment addend
+            // add next int to sum
+                
+            // check if sum is past square
+                // curSqrt++;
+                // reset square
+        
+        // print magic square
+}
+```
+
 ### Sample Output
 
 ```
